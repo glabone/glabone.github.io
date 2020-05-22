@@ -7309,3 +7309,22 @@ a.credit {
   text-decoration: none;
   cursor: pointer;
 }
+.close1 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 10px;
+  font-weight: bold;
+}
+.close1:hover,
+.close1:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.blog{
+  -moz-column-count: 3;
+  -webkit-column-count: 3;
+  -moz-column-gap: 40px;
+  -webkit-column-gap: 40px;
+  font-size: 15px;
+}
