@@ -7321,11 +7321,13 @@ a.credit {
   text-decoration: none;
   cursor: pointer;
 }
-
-.blog{
-  -moz-column-count: 3;
-  -webkit-column-count: 3;
-  -moz-column-gap: 40px;
-  -webkit-column-gap: 40px;
-  font-size: 15px;
+@media only screen and (min-width: 600px) {
+  /* For computers: */
+  .blog{
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    -moz-column-gap: 40px;
+    -webkit-column-gap: 40px;
+    font-size: 15px;
+  }
 }
