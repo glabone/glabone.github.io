@@ -7321,7 +7321,7 @@ a.credit {
   text-decoration: none;
   cursor: pointer;
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1024px) {
   /* For computers: */
   .blog{
     -moz-column-count: 3;
