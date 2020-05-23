@@ -133,6 +133,18 @@ $(document).on('click', '.navbar-toggler', function() {
     }
 });
 
+//*********** Glauco ***************
+$(document).on('click', '.nav-link', function() {
+    if (nowuiKit.misc.navbar_menu_visible == 1) {
+        $('html').removeClass('nav-open');
+        nowuiKit.misc.navbar_menu_visible = 0;
+        $('#bodyClick').remove();
+        setTimeout(function() {
+            $toggle.removeClass('toggled');
+        }, 550);
+}
+});
+
 nowuiKit = {
     misc: {
         navbar_menu_visible: 0

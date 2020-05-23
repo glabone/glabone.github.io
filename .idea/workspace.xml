@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0df70ca7-13bf-43c0-9489-7b6924829fa5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/now-ui-kit.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/now-ui-kit.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +57,7 @@
       <workItem from="1590132965868" duration="2643000" />
       <workItem from="1590135708485" duration="7142000" />
       <workItem from="1590180012225" duration="1089000" />
+      <workItem from="1590195855209" duration="2889000" />
     </task>
     <servers />
   </component>
@@ -72,5 +73,9 @@
       <screen x="74" y="0" width="1846" height="1080" />
     </state>
     <state x="589" y="273" key="Vcs.Push.Dialog.v2/74.0.1846.1080/1920.0.1680.1050@74.0.1846.1080" timestamp="1590135772793" />
+    <state x="693" y="138" width="607" height="804" key="find.popup" timestamp="1590196492807">
+      <screen x="74" y="0" width="1846" height="1080" />
+    </state>
+    <state x="693" y="138" width="607" height="804" key="find.popup/74.0.1846.1080/1920.0.1680.1050@74.0.1846.1080" timestamp="1590196492807" />
   </component>
 </project>
