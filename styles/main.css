@@ -7338,11 +7338,11 @@ a.credit {
   width: 150px;
   height: auto;
   margin: 0px 10px 0px 0px;
-  transition: transform 2s;
+  /*transition: transform 2s;*/
   border-radius: 10px;
 }
 
-.image_text:hover
+/*.image_text:hover
 {
   transform: scale(2,2);
-}
+}*/
