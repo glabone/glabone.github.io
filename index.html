@@ -454,6 +454,24 @@
                 <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
                   <div class="card-body cc-education-header">
                     <br>
+                    <div class="h5">The step-by-step to create a Chatbot with Amazon Lex</div>
+                  </div>
+                </div>
+                <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                  <div class="card-body">
+                    <p><b>Glauco Labone - Jun 3, 2020</b></p>
+                    <p>In this post, I will show in a simple way the practical step-by-step to create your first chatbot. To start you will need to create an account at <a href="https://aws.amazon.com/" target="_blank">AWS</a>. After creating an account, click on "Sign In to the Console". After that, in the next page, select the option "Root user" and inform your email address, click "Next", enter your password, and click "Enter".</p>
+                    <br>
+                    <button id="myBtn1" class="btn btn-primary">Continue reading</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="row">
+                <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                  <div class="card-body cc-education-header">
+                    <br>
                     <div class="h5">My choice regarding the Chatbot tool</div>
                   </div>
                 </div>
@@ -541,7 +559,7 @@
       <div id="myModal" class="modal">
         <!-- Modal content -->
         <div class="modal-content">
-          <span class="close">&times;</span>
+          <span id="close" class="close">&times;</span>
           <h1>My choice regarding the Chatbot tool</h1>
           <b>Glauco Labone - May 22, 2020</b>
           <br>
@@ -557,9 +575,58 @@
             <p>In my next posts, I will explain the step by step for creating your first Amazon Lex bot and will go into detail about possible parameters and concepts like "sample utterances", "slots", "confirmation prompt", "fulfillment" and "response". Also, I will explain the possibility of using a very valuable computing service called AWS Lambda to interact with external interfaces.</p>
           </div>
           <br>
-          <span class="close1">Close</span>
+          <span id="closeA" class="close1">Close</span>
         </div>
       </div>
+      <!-- The Modal -->
+      <div id="myModal1" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span id="close1" class="close">&times;</span>
+          <h1>The step-by-step to create a Chatbot with Amazon Lex</h1>
+          <b>Glauco Labone - Jun 3, 2020</b>
+          <br>
+          <div class="blog">
+            <p>In this post, I will show in a simple way the practical step-by-step to create your first chatbot. To start you will need to create an account at <a href="https://aws.amazon.com/" target="_blank">AWS</a>. After creating an account, click on "Sign In to the Console". After that, in the next page, select the option "Root user" and inform your email address, click "Next", enter your password, and click "Enter".</p>
+            <p>According to a large number of services provided by Amazon, a faster way to access Amazon Lex service is to search for it under “Find Services” and then access it. Tip: after accessing the Amazon Lex service page, you can save this link to your browser's favorites to make it easier to access your bots in the next time.</p>
+            <figure>
+              <a href="#blog">
+                <img id="btn_img1" class="image_text" src="images/blog_post2_img1.png">
+              </a>
+              <div id="modal_img1" class="modal" align="center">
+                <img src="images/blog_post2_img1.png">
+              </div>
+            </figure>
+            <p>As we have not yet created any bot, the list of Bots is empty, but we can create it by clicking on “Create”. Welcome to the bots creation page. You can choose to create a custom bot or try a sample. We will create using try a sample. Select BookTrip and then enter a name for your first bot: “<i>My_First_Book_Trip_Bot</i>”. Right below, there is the option of using sentiment analysis or not. In our case, we will not choose to use it, but I recommend using it if you want to create more sophisticated bots in the future. The same applies to the use of the bot is subject to the Children's Online Privacy Protection Act (COPPA), click in "No" and. the same as for creating tags at that time, it will not be necessary. After that, click on the "Create" button.</p>
+            <p>Incredible as it sounds, your bot is already created! But first of all, let's understand all the settings used until this moment.</p>
+            <p>In the "Editor" options, you can see the intents created. In this case, for being a travel bot, the intents are car reservations and hotel reservations. Click in "BookCar" and all configuration options appear in the central part of the screen.</p>
+            <figure>
+              <a href="#blog">
+                <img id="btn_img2" class="image_text" src="images/blog_post2_img2.png">
+              </a>
+              <div id="modal_img2" class="modal" align="center">
+                <img src="images/blog_post2_img2.png">
+              </div>
+            </figure>
+            <p>The first item is "Sample utterances". You can include words or phrases for initiating an interaction between bot and user. When the user writes something in the chat that corresponds to these conjunctions of words, the bot will start the interaction with the user asking the questions contains in the slots.</p>
+            <p>As we are creating a bot more simply we will not talk about "Lambda initialization and validation" or Lambda service in this post. This will be what we will talk about in the next post. The next parametrization option is the heart of the bot. Since the variables registered in the item slots are responsible for the questions and iterations with the user. Within the Slots item, 5 variables were automatically created. For each variable, you can create the questions in the Prompt option. Note that there is a type for each variable created, this is very important for the dynamism of the bot to do with whether or not there is a need for validation when the user informing the answers appropriated, such as, for example, the bot will validate if it was correctly informed a date when it uses AMAZON.DATE in the slot type.</p>
+            <figure>
+              <a href="#blog">
+                <img id="btn_img3" class="image_text" src="images/blog_post2_img3.png">
+              </a>
+              <div id="modal_img3" class="modal" align="center">
+                <img src="images/blog_post2_img3.png">
+              </div>
+            </figure>
+            <p>Below are the confirmation prompt options. After the bot records all user's responses in the slots, it presents as if it were a summary for the user to confirm his intentions. Once confirms, the bot ends its interaction with the user. In the real world, at this point, your car reservation would be processed.</p>
+            <p>In the upper right corner, click on the Test bot link and do your iteration yourself with your first chatbot.</p>
+            <p>Now you are free to explore many other existing resources and refine your first bot… see you in the next post...</p>
+          </div>
+          <br>
+          <span id="close1A" class="close1">Close</span>
+        </div>
+      </div>
+
     </div>
     <footer class="footer">
       <div class="container text-center"><a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.linkedin.com/in/glaucolabonepmp/" target="_blank" rel="tooltip" title="Follow me on LinkedIn"><i class="fa fa-linkedin"></i></a></div>

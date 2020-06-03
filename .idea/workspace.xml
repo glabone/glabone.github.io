@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0df70ca7-13bf-43c0-9489-7b6924829fa5" name="Default Changelist" comment="">
+    <list default="true" id="0df70ca7-13bf-43c0-9489-7b6924829fa5" name="Default Changelist" comment=".">
+      <change afterPath="$PROJECT_DIR$/images/blog_post2_img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blog_post2_img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blog_post2_img3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +37,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\cprg256\mywebsite\images" />
+      <recent name="C:\cprg256\mywebsite\files" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/creative-cv_free_1-0-2/index.html" useBuiltInWebServerPort="true">
@@ -63,24 +74,77 @@
       <workItem from="1590258984288" duration="33000" />
       <workItem from="1590414874809" duration="851000" />
       <workItem from="1590417675108" duration="56000" />
+      <workItem from="1590523151124" duration="637000" />
+      <workItem from="1590523799912" duration="1521000" />
+      <workItem from="1590525737504" duration="770000" />
+      <workItem from="1590526526758" duration="204000" />
+      <workItem from="1591133630922" duration="12280000" />
     </task>
+    <task id="LOCAL-00001" summary=".">
+      <created>1590523682171</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590523682171</updated>
+    </task>
+    <task id="LOCAL-00002" summary=".">
+      <created>1590525307479</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590525307479</updated>
+    </task>
+    <task id="LOCAL-00003" summary=".">
+      <created>1590526496751</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590526496751</updated>
+    </task>
+    <task id="LOCAL-00004" summary=".">
+      <created>1590526637697</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590526637697</updated>
+    </task>
+    <task id="LOCAL-00005" summary=".">
+      <created>1590526709569</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1590526709569</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="589" y="198" key="#Deployment" timestamp="1590109391256">
+    <state x="589" y="198" key="#Deployment" timestamp="1590523176991">
       <screen x="74" y="0" width="1846" height="1080" />
     </state>
-    <state x="589" y="198" key="#Deployment/74.0.1846.1080/1920.0.1680.1050@74.0.1846.1080" timestamp="1590109391256" />
-    <state x="589" y="273" key="Vcs.Push.Dialog.v2" timestamp="1590135772793">
+    <state x="589" y="198" key="#Deployment/74.0.1846.1080/1920.0.1680.1050@74.0.1846.1080" timestamp="1590523176991" />
+    <state x="622" y="134" key="CommitChangelistDialog2" timestamp="1591167319688">
       <screen x="74" y="0" width="1846" height="1080" />
     </state>
-    <state x="589" y="273" key="Vcs.Push.Dialog.v2/74.0.1846.1080/1920.0.1680.1050@74.0.1846.1080" timestamp="1590135772793" />
+    <state x="622" y="134" key="CommitChangelistDialog2/74.0.1846.1080/1920.0.1680.1050@74.0.1846.1080" timestamp="1591167319688" />
+    <state x="589" y="273" key="Vcs.Push.Dialog.v2" timestamp="1591167266109">
+      <screen x="74" y="0" width="1846" height="1080" />
+    </state>
+    <state x="589" y="273" key="Vcs.Push.Dialog.v2/74.0.1846.1080/1920.0.1680.1050@74.0.1846.1080" timestamp="1591167266109" />
     <state x="693" y="138" width="607" height="804" key="find.popup" timestamp="1590196492807">
       <screen x="74" y="0" width="1846" height="1080" />
     </state>
     <state x="693" y="138" width="607" height="804" key="find.popup/74.0.1846.1080/1920.0.1680.1050@74.0.1846.1080" timestamp="1590196492807" />
+    <state x="703" y="331" key="git4idea.merge.GitPullDialog" timestamp="1590523432171">
+      <screen x="74" y="0" width="1846" height="1080" />
+    </state>
+    <state x="703" y="331" key="git4idea.merge.GitPullDialog/74.0.1846.1080/1920.0.1680.1050@74.0.1846.1080" timestamp="1590523432171" />
   </component>
 </project>
