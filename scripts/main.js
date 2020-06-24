@@ -45,12 +45,14 @@ $('a.smooth-scroll')
 // Get the modal
 var modal = document.getElementById("myModal");
 var modal1 = document.getElementById("myModal1");
+var modal2 = document.getElementById("myModal2");
 var modal_img1 = document.getElementById("modal_img1");
 var modal_img2 = document.getElementById("modal_img2");
 var modal_img3 = document.getElementById("modal_img3");
 // Get the button that opens the modal
 var btn = document.getElementById("myBtn");
 var btn1 = document.getElementById("myBtn1");
+var btn2 = document.getElementById("myBtn2");
 var btn_img1 = document.getElementById("btn_img1");
 var btn_img2 = document.getElementById("btn_img2");
 var btn_img3 = document.getElementById("btn_img3");
@@ -61,12 +63,17 @@ var span = document.getElementById("close");
 var spanA = document.getElementById("closeA");
 var span1 = document.getElementById("close1");
 var span1A = document.getElementById("close1A");
+var span2 = document.getElementById("close2");
+var span2A = document.getElementById("close2A");
 // When the user clicks the button, open the modal
 btn.onclick = function() {
   modal.style.display = "block";
 }
 btn1.onclick = function() {
   modal1.style.display = "block";
+}
+btn2.onclick = function() {
+  modal2.style.display = "block";
 }
 btn_img1.onclick = function() {
   modal_img1.style.display = "block";
@@ -90,6 +97,12 @@ span1.onclick = function() {
 span1A.onclick = function() {
   modal1.style.display = "none";
 }
+span2.onclick = function() {
+  modal2.style.display = "none";
+}
+span2A.onclick = function() {
+  modal2.style.display = "none";
+}
 modal_img1.onclick = function() {
   modal_img1.style.display = "none";
 }
@@ -106,6 +119,9 @@ window.onclick = function(event) {
   }
   else if (event.target === modal1) {
     modal1.style.display = "none";
+  }
+  else if (event.target === modal2) {
+    modal2.style.display = "none";
   }
   else if (event.target === modal_img1) {
     modal_img1.style.display = "none";

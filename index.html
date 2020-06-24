@@ -450,6 +450,24 @@
                 <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
                   <div class="card-body cc-education-header">
                     <br>
+                    <div class="h5">Accessing Chatbot outside the AWS test environment</div>
+                  </div>
+                </div>
+                <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                  <div class="card-body">
+                    <p><b>Glauco Labone - Jun 24, 2020</b></p>
+                    <p>If you have already created your chatbot via AWS Lex and would like to publish it outside the AWS test environment, you are in the right place! In this post, I will describe step-by-step to integrate it on the Slack platform. If you have any questions about the develop a chatbot, you can read my previous post - "The step-by-step to create a Chatbot with Amazon Lex", because we need a bot created to be able to use integration.</p>
+                    <br>
+                    <button id="myBtn2" class="btn btn-primary">Continue reading</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="row">
+                <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                  <div class="card-body cc-education-header">
+                    <br>
                     <div class="h5">The step-by-step to create a Chatbot with Amazon Lex</div>
                   </div>
                 </div>
@@ -552,26 +570,31 @@
         </div>
       </div>
       <!-- The Modal -->
-      <div id="myModal" class="modal">
+      <div id="myModal2" class="modal">
         <!-- Modal content -->
         <div class="modal-content">
-          <span id="close" class="close">&times;</span>
-          <h1>My choice regarding the Chatbot tool</h1>
-          <b>Glauco Labone - May 22, 2020</b>
+          <span id="close2" class="close">&times;</span>
+          <h1>Accessing Chatbot outside the AWS test environment</h1>
+          <b>Glauco Labone - Jun 24, 2020</b>
           <br>
           <div class="blog">
-            <p>I have always been interested in subjects related to the interaction between user and machine and the benefits that this can bring in our lives. On conversations with colleagues from specialized websites, Artificial Intelligence and Machine Learning are terms that are always present on most job openings.</p>
-            <p>Putting these interesting topics together, I started to study chatbot. It is a computational intelligence used to conduct an online conversation via text or text to speech between machine and human, meaning that, when one needs help or information on a certain topic, this artificial intelligence is able to provide the necessary guidelines. Despite being a much-discussed technology nowadays, the first experiments were made in 1964 and since then, this technology has been increasingly explored and applied in different areas.</p>
-            <p>Incredible, don’t you think? The first thing that comes to mind is the possibility of reducing companies costs and the average service time (e.g. call centre services). That would allow - as a consequence - higher productivity with lower costs. herefore, I tried to understand more what are the companies that stand out in this sector and what are the most popular tools so I could choose which one I will specialize in…</p>
-            <p>I did some research and learned more about <a href="https://www.ibm.com/watson" target="_blank">IBM Watson</a>, which is, without a doubt a very interesting and complete tool. I really liked the possibility of customizing the user interface according to the needs of your business and the out-of-the-box connectivity to SharePoint Online and Salesforce. SAP has a very powerful tool, <a href="https://cai.tools.sap/" target="_blank">SAP Conversational AI</a>. Like IBM Watson, SAP Conversational AI has Integration with SAP and non-SAP solutions. Google has a tool much-used nowadays, the famous <a href="https://dialogflow.com/" target="_blank">DialogFlow</a>. I highlight the success case of Domino’s, being one of the pioneer pizzerias to use a bot for ordering pizzas. I should also mention Microsoft with its easy-to-use <a href="https://azure.microsoft.com/en-ca/services/bot-service/" target="_blank">Azure Bot Service</a> tool which includes workshops like Chatbot-in-a-Day.</p>
-            <p>All of these tools will undoubtedly deliver extraordinary results for companies and help drive the digital transformation through a quick return on investment, but I still wasn’t decided on my choice until I came across <a href="https://aws.amazon.com/lex/" target="_blank">AWS Lex</a>, the Amazon’s tool. It is complete, intuitive, and very robust.</p>
-            <p>According to information on the Amazon website itself, Amazon Lex is a service for building conversational interfaces using voice and text. With Lex, the same deep learning engine that powers Alexa is now available to any developer, enabling you to bring sophisticated, natural language chatbots to your new and existing applications. Amazon Lex enables any developer to build conversational chatbots quickly and easily. With Amazon Lex, no deep learning expertise is necessary. You just specify the basic conversational flow directly from the console, and then Amazon Lex manages the dialogue and dynamically adjusts the response.</p>
-            <p>My first contact with this service was very interesting, as it is not necessary to install any application on the computer and it is a great advantage. Everything you need to do to create your bot and have an AWS account and access the AWS Management Console.</p>
-            <p>There is an option to create your bot using a template or starting from scratch. If you are not familiar with Lex, I recommend you choose one of the three models available: booking trips, ordering flowers, or making appointments.</p>
-            <p>In my next posts, I will explain the step by step for creating your first Amazon Lex bot and will go into detail about possible parameters and concepts like "sample utterances", "slots", "confirmation prompt", "fulfillment" and "response". Also, I will explain the possibility of using a very valuable computing service called AWS Lambda to interact with external interfaces.</p>
+            <p>If you have already created your chatbot via AWS Lex and would like to publish it outside the AWS test environment, you are in the right place! In this post, I will describe step-by-step to integrate it on the Slack platform. If you have any questions about the develop a chatbot, you can read my previous post - "The step-by-step to create a Chatbot with Amazon Lex", because we need a bot created to be able to use integration.</p>
+            <p>Why did I choose the <a href="https://slack.com/intl/en-ca/" target="_blank">Slack</a> platform? There is no very detailed justification, just because I fink this platform very interesting and I use it for cooperation on projects with team members. But you can choose to integrate your chatbot in 3 other channels, <a href="https://docs.aws.amazon.com/lex/latest/dg/fb-bot-association.html" target="_blank">Facebook</a>, <a href="https://docs.aws.amazon.com/lex/latest/dg/kik-bot-association.html" target="_blank">Kik</a>, and <a href="https://docs.aws.amazon.com/lex/latest/dg/twilio-bot-association.html" target="_blank">Twilio SMS</a>.</p>
+            <p>Slack is a communication platform aimed at your team and your work. As I mentioned, I use it a lot in my day-to-day, so why not develop a bot that can help with daily tasks and be able to answer numerous questions quickly and accurately? For example, developing a bot that queries availability on team members' schedules and suggests free windows for new meetings. This is just an idea that could be done via AWS Lex and then integrate into the platform.</p>
+            <p>The focus here is to integrate an existing bot. So, let's go step-by-step.</p>
+            <p>My reference to this post was researched and based on official AWS <a href="https://docs.aws.amazon.com/lex/latest/dg/slack-bot-association.html" target="_blank">documentation</a>. The first step is to create a <a href="https://slack.com/intl/en-ca/help/articles/212675257-Join-a-Slack-workspace" target="_blank">Slack account</a> and create a workplace (for example, I created “AWS_LEX” Slack workspace). With the account created, you must create a <a href="https://api.slack.com/apps?new_app=1" target="_blank">Slack App</a>. After that, click in [Settings] > [Basic Information] and copy into notepad the “Client ID”, “Client Secret”, and “Verification Token” code.</p>
+            <p>On another web page, open the Amazon Lex <a href="https://console.aws.amazon.com/lex/" target="_blank">console</a>, select your bot and click on the button in the upper right corner [Publish]. You will need to create an alias, for example, "Bot_Integrate" and click [Publish]. After the conclusion of the publication, click the [Go to channels] button. This publication procedure will make your bot able to be integrated.</p>
+            <p>On the [Channels] tab, click on [Slack], provide a name for the channel (you can enter the same name as your bot), select the alias you had created in the previous step of publishing the bot. Copy and paste the codes of the notepad into the “Client Id”, “Client Secret”, and “Verification Token” fields, after that click the [Active] button. Note that two URLs have been created that will need to be configured in the Slack app.</p>
+            <p>The “Postback URL” is the Amazon Lex bot's endpoint that listens to Slack events and the “OAuth URL” is your Amazon Lex bot's endpoint for an OAuth handshake with Slack.</p>
+            <p>Returning to the Slack API <a href="https://api.slack.com/apps" target="_blank">console</a>, access your app and click on [Features] > [OAuth & Permissions]. In [Redirect URLs] section, click in [Add New Redirect URL] and enter the OAuth URL provided by Amazon Lex, and click in [Add] and [Save URLs]. Right below, in [Scopes]> [Bot Token Scopes] click on the [Add an OAuth Scope] button and search for "chat: write" and then for "team: read".</p>
+            <p>Return to the beginning of the page, click on [Features]> [Interactivity & Shortcuts], and change to "Interactivity On". In [Request URL] section, enter the Postback URL provided by Amazon Lex and click in [Save Changes].</p>
+            <p>The last step of the configuration before running an integration test is to click on [Features] > [Event Subscriptions], and change to "Enable Events On". In [Request URL] section, enter the Postback URL again, and [Sign up for bot events] section, click in [Add Bot User Event] and search form "message.im" and click in [Save Changes].</p>
+            <p>Is everything okay so far? Now let's click on add our application to Slack and run the tests, for that go to [Settings] > [Manage Distribution] and click on [Add to Slack] and on the next screen click on [Allow]. The screen you have been redirected to now is the main Slack screen that you can access via the web or install the application on your smartphone. In the left corner of the screen, access your application, and interact with it the same way you did on the Amazon Lex console.</p>
+            <p>If your tests were successful, your integration is complete. If you change the functionality on your Amazon Lex console, you only need to publish it via the console, which automatically its implementations will be accessible in Slack.</p>
+            <p>If your bot had an error, repeat the steps creating a new application or access the official AWS <a href="https://docs.aws.amazon.com/" target="_blank">documentation</a>. I also recommend accessing the AWS <a href="https://aws.amazon.com/developer/community/" target="_blank">developer community</a> website. There are very interesting topics and solutions to various problems that can be very useful in a developer's daily life.</p>
           </div>
           <br>
-          <span id="closeA" class="close1">Close</span>
+          <span id="close2A" class="close1">Close</span>
         </div>
       </div>
       <!-- The Modal -->
@@ -620,6 +643,29 @@
           </div>
           <br>
           <span id="close1A" class="close1">Close</span>
+        </div>
+      </div>
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span id="close" class="close">&times;</span>
+          <h1>My choice regarding the Chatbot tool</h1>
+          <b>Glauco Labone - May 22, 2020</b>
+          <br>
+          <div class="blog">
+            <p>I have always been interested in subjects related to the interaction between user and machine and the benefits that this can bring in our lives. On conversations with colleagues from specialized websites, Artificial Intelligence and Machine Learning are terms that are always present on most job openings.</p>
+            <p>Putting these interesting topics together, I started to study chatbot. It is a computational intelligence used to conduct an online conversation via text or text to speech between machine and human, meaning that, when one needs help or information on a certain topic, this artificial intelligence is able to provide the necessary guidelines. Despite being a much-discussed technology nowadays, the first experiments were made in 1964 and since then, this technology has been increasingly explored and applied in different areas.</p>
+            <p>Incredible, don’t you think? The first thing that comes to mind is the possibility of reducing companies costs and the average service time (e.g. call centre services). That would allow - as a consequence - higher productivity with lower costs. herefore, I tried to understand more what are the companies that stand out in this sector and what are the most popular tools so I could choose which one I will specialize in…</p>
+            <p>I did some research and learned more about <a href="https://www.ibm.com/watson" target="_blank">IBM Watson</a>, which is, without a doubt a very interesting and complete tool. I really liked the possibility of customizing the user interface according to the needs of your business and the out-of-the-box connectivity to SharePoint Online and Salesforce. SAP has a very powerful tool, <a href="https://cai.tools.sap/" target="_blank">SAP Conversational AI</a>. Like IBM Watson, SAP Conversational AI has Integration with SAP and non-SAP solutions. Google has a tool much-used nowadays, the famous <a href="https://dialogflow.com/" target="_blank">DialogFlow</a>. I highlight the success case of Domino’s, being one of the pioneer pizzerias to use a bot for ordering pizzas. I should also mention Microsoft with its easy-to-use <a href="https://azure.microsoft.com/en-ca/services/bot-service/" target="_blank">Azure Bot Service</a> tool which includes workshops like Chatbot-in-a-Day.</p>
+            <p>All of these tools will undoubtedly deliver extraordinary results for companies and help drive the digital transformation through a quick return on investment, but I still wasn’t decided on my choice until I came across <a href="https://aws.amazon.com/lex/" target="_blank">AWS Lex</a>, the Amazon’s tool. It is complete, intuitive, and very robust.</p>
+            <p>According to information on the Amazon website itself, Amazon Lex is a service for building conversational interfaces using voice and text. With Lex, the same deep learning engine that powers Alexa is now available to any developer, enabling you to bring sophisticated, natural language chatbots to your new and existing applications. Amazon Lex enables any developer to build conversational chatbots quickly and easily. With Amazon Lex, no deep learning expertise is necessary. You just specify the basic conversational flow directly from the console, and then Amazon Lex manages the dialogue and dynamically adjusts the response.</p>
+            <p>My first contact with this service was very interesting, as it is not necessary to install any application on the computer and it is a great advantage. Everything you need to do to create your bot and have an AWS account and access the AWS Management Console.</p>
+            <p>There is an option to create your bot using a template or starting from scratch. If you are not familiar with Lex, I recommend you choose one of the three models available: booking trips, ordering flowers, or making appointments.</p>
+            <p>In my next posts, I will explain the step by step for creating your first Amazon Lex bot and will go into detail about possible parameters and concepts like "sample utterances", "slots", "confirmation prompt", "fulfillment" and "response". Also, I will explain the possibility of using a very valuable computing service called AWS Lambda to interact with external interfaces.</p>
+          </div>
+          <br>
+          <span id="closeA" class="close1">Close</span>
         </div>
       </div>
 
