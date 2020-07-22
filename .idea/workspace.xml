@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0df70ca7-13bf-43c0-9489-7b6924829fa5" name="Default Changelist" comment=".">
-      <change afterPath="$PROJECT_DIR$/images/blog_post2_img1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/blog_post2_img2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/blog_post2_img3.png" afterDir="false" />
+    <list default="true" id="0df70ca7-13bf-43c0-9489-7b6924829fa5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +20,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1cEzIY5r84kehtuFcrR6zbaF8XF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -36,12 +33,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/files" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\cprg256\mywebsite\images" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\cprg256\mywebsite\files" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\cprg256\mywebsite\files" />
+      <recent name="C:\cprg256\mywebsite\images" />
     </key>
   </component>
   <component name="RunManager">
@@ -78,7 +78,15 @@
       <workItem from="1590523799912" duration="1521000" />
       <workItem from="1590525737504" duration="770000" />
       <workItem from="1590526526758" duration="204000" />
-      <workItem from="1591133630922" duration="12280000" />
+      <workItem from="1591133630922" duration="13326000" />
+      <workItem from="1591168438062" duration="102000" />
+      <workItem from="1591169118107" duration="382000" />
+      <workItem from="1592419700052" duration="481000" />
+      <workItem from="1592929666561" duration="779000" />
+      <workItem from="1592983384250" duration="2278000" />
+      <workItem from="1592985780088" duration="833000" />
+      <workItem from="1593061981385" duration="947000" />
+      <workItem from="1595395451124" duration="1459000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1590523682171</created>
@@ -115,7 +123,91 @@
       <option name="project" value="LOCAL" />
       <updated>1590526709569</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary=".">
+      <created>1591167257804</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1591167257804</updated>
+    </task>
+    <task id="LOCAL-00007" summary=".">
+      <created>1591167376036</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1591167376036</updated>
+    </task>
+    <task id="LOCAL-00008" summary=".">
+      <created>1591168219905</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1591168219905</updated>
+    </task>
+    <task id="LOCAL-00009" summary=".">
+      <created>1591169489738</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1591169489738</updated>
+    </task>
+    <task id="LOCAL-00010" summary=".">
+      <created>1592420036884</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1592420036884</updated>
+    </task>
+    <task id="LOCAL-00011" summary=".">
+      <created>1592985601519</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1592985601519</updated>
+    </task>
+    <task id="LOCAL-00012" summary=".">
+      <created>1592986602503</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1592986602503</updated>
+    </task>
+    <task id="LOCAL-00013" summary=".">
+      <created>1593062912759</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1593062912759</updated>
+    </task>
+    <task id="LOCAL-00014" summary=".">
+      <created>1595396202718</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1595396202718</updated>
+    </task>
+    <task id="LOCAL-00015" summary=".">
+      <created>1595396222685</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1595396222685</updated>
+    </task>
+    <task id="LOCAL-00016" summary=".">
+      <created>1595396481117</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1595396481117</updated>
+    </task>
+    <task id="LOCAL-00017" summary=".">
+      <created>1595396497324</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1595396497324</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,21 +222,23 @@
       <screen x="74" y="0" width="1846" height="1080" />
     </state>
     <state x="589" y="198" key="#Deployment/74.0.1846.1080/1920.0.1680.1050@74.0.1846.1080" timestamp="1590523176991" />
-    <state x="622" y="134" key="CommitChangelistDialog2" timestamp="1591167319688">
+    <state x="622" y="134" key="CommitChangelistDialog2" timestamp="1595396496777">
       <screen x="74" y="0" width="1846" height="1080" />
     </state>
-    <state x="622" y="134" key="CommitChangelistDialog2/74.0.1846.1080/1920.0.1680.1050@74.0.1846.1080" timestamp="1591167319688" />
-    <state x="589" y="273" key="Vcs.Push.Dialog.v2" timestamp="1591167266109">
+    <state x="622" y="134" key="CommitChangelistDialog2/74.0.1846.1080/1920.0.1680.1050@74.0.1846.1080" timestamp="1593062912154" />
+    <state x="622" y="134" key="CommitChangelistDialog2/74.0.1846.1080/1920.0.1920.1080@74.0.1846.1080" timestamp="1595396496777" />
+    <state x="589" y="273" key="Vcs.Push.Dialog.v2" timestamp="1595396225303">
       <screen x="74" y="0" width="1846" height="1080" />
     </state>
-    <state x="589" y="273" key="Vcs.Push.Dialog.v2/74.0.1846.1080/1920.0.1680.1050@74.0.1846.1080" timestamp="1591167266109" />
+    <state x="589" y="273" key="Vcs.Push.Dialog.v2/74.0.1846.1080/1920.0.1680.1050@74.0.1846.1080" timestamp="1593062914377" />
+    <state x="589" y="273" key="Vcs.Push.Dialog.v2/74.0.1846.1080/1920.0.1920.1080@74.0.1846.1080" timestamp="1595396225303" />
     <state x="693" y="138" width="607" height="804" key="find.popup" timestamp="1590196492807">
       <screen x="74" y="0" width="1846" height="1080" />
     </state>
     <state x="693" y="138" width="607" height="804" key="find.popup/74.0.1846.1080/1920.0.1680.1050@74.0.1846.1080" timestamp="1590196492807" />
-    <state x="703" y="331" key="git4idea.merge.GitPullDialog" timestamp="1590523432171">
+    <state x="703" y="331" key="git4idea.merge.GitPullDialog" timestamp="1592420131539">
       <screen x="74" y="0" width="1846" height="1080" />
     </state>
-    <state x="703" y="331" key="git4idea.merge.GitPullDialog/74.0.1846.1080/1920.0.1680.1050@74.0.1846.1080" timestamp="1590523432171" />
+    <state x="703" y="331" key="git4idea.merge.GitPullDialog/74.0.1846.1080/1920.0.1680.1050@74.0.1846.1080" timestamp="1592420131539" />
   </component>
 </project>
